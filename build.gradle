@@ -36,4 +36,5 @@ dependencies {
 	compileOnly('org.projectlombok:lombok')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 	testCompile('io.projectreactor:reactor-test')
+	compile group: 'org.webjars', name: 'bootstrap', version: '4.0.0'
 }
